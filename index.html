@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Money Moves - Neobrutalist Finance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f4af25",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221c10",
+                        "neo-black": "#181611",
+                        "neo-white": "#ffffff",
+                        "accent-pink": "#fbcfe8",
+                        "accent-blue": "#bfdbfe",
+                        "accent-green": "#d9f99d",
+                        "accent-red": "#ffbfa8"
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        "neo": "4px 4px 0px 0px #181611",
+                        "neo-sm": "2px 2px 0px 0px #181611",
+                        "neo-lg": "6px 6px 0px 0px #181611",
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        body { min-height: 100dvh; }
+        .neo-transition { transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display antialiased">
+    <div id="root"></div>
+</body>
+</html>

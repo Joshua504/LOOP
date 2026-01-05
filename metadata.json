@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Money Moves",
+  "description": "A neobrutalist personal finance and budget manager with a bold, high-contrast UI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
